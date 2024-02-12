@@ -1,0 +1,92 @@
+/*banner style start*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  padding: 0;
+  margin:0;/*IE7*/
+}
+.bannerbox {
+	border: none;
+	height: 330px;
+	left: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 74px;
+	width: 980px;
+}
+.bannermain {
+  clear: both;
+  margin: auto;
+  width: 980px;
+  background:url("../images/bg.jpg") repeat-x scroll 0 0 transparent;
+}
+.slidescont {
+  height: 330px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.slidePic {
+  position:relative;
+  overflow: hidden;
+  width: 100%;
+  margin-top:0px;
+}
+
+.slidePic li {
+   width: 100%;
+   height:330px;
+
+}
+.slidePic a{
+   position:absolute;
+   left:0px;
+   top:0px;
+   display:block;
+   height:300px;
+   width:518px;
+   outline: none;
+}
+ol, ul {
+  list-style: none outside none;
+}
+.slideTxt{
+  bottom: 20px !important;
+  cursor: pointer;
+  height: 10px;
+  right: 20px;
+  margin-bottom: 0;
+  position: absolute;
+  width: 150px;
+  float:right;
+}
+.slideTxt li {
+  float: left;
+  height: 10px;
+  overflow: hidden;
+  text-align: center;
+  width: 30px;
+  background-color:#CCCCCC;
+  margin-left:20px;
+}
+.slideTxt li span {
+  display: block;
+  line-height: 10px;
+  padding: 5px;
+  text-indent: -300000px;
+}
+.slideTxt li span:hover {
+  background-color:#999999;
+}
+
+.slideTxt .cur {
+  background-color:#999999;
+}
+
+.cleardiv {
+  clear: both;
+  width: 321px;
+  padding:0px;
+  margin:0px;
+  height:1px;
+}
+
+/*banner style end*/
